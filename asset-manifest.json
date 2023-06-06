@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-carrer-counselling/static/css/main.073c9b0a.css",
+    "main.js": "/my-carrer-counselling/static/js/main.b1d02b77.js",
+    "static/js/787.59fc72a6.chunk.js": "/my-carrer-counselling/static/js/787.59fc72a6.chunk.js",
+    "static/media/logo.svg": "/my-carrer-counselling/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/my-carrer-counselling/index.html",
+    "main.073c9b0a.css.map": "/my-carrer-counselling/static/css/main.073c9b0a.css.map",
+    "main.b1d02b77.js.map": "/my-carrer-counselling/static/js/main.b1d02b77.js.map",
+    "787.59fc72a6.chunk.js.map": "/my-carrer-counselling/static/js/787.59fc72a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b1d02b77.js"
+  ]
+}
