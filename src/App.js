@@ -15,9 +15,7 @@ const App = () => {
     <Router>
       <div>
         <MainNavigation />
-        {/* <Title /> */}
         <main>
-          <Title />
           <Intro />
           <Offerings />
           <WhoCanJoin />

@@ -1,3 +1,7 @@
+.container{
+  display: flex;
+}
+
 .offerings {
     text-align: center;
     color:#282c34;

@@ -4,11 +4,12 @@ import './intro.css'
 
 const Intro = () => {
   return (
-    <div className="container">
+    <div>
       <div className="carrercounsellingimg">
         <img
           alt="My Carrer Counselling"
-          src="https://edumilestones.com/blog/images/importance-of-career-counselling.png"
+          // src="https://edumilestones.com/blog/images/importance-of-career-counselling.png"
+          src={require('./img1.png')}
         ></img>{" "}
       </div>
       <div className="intro">
