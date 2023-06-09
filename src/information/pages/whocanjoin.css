@@ -1,0 +1,14 @@
+.whocanjoin{
+    text-align: justify;
+    color: black;
+    margin: 2rem;
+    font-size: x-large;
+    color: #282c34;
+  }
+  
+  .whocanjointitle{
+    text-align: center;
+    color:#282c34;
+    display: flex;
+    font-size: 90px; 
+  }

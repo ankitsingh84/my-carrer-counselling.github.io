@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+  }
+  
+  .carrercounsellingimg{
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .intro{
+    font-size:x-large;
+    display: flex;
+    text-align: justify;
+    color: #282c34;
+    margin: 2rem;
+  }
+  
