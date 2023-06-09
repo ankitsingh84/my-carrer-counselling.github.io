@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import React from "react";
+import { Routes} from "react-router-dom";
 
 import "./App.css";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
@@ -12,19 +13,22 @@ import Offerings from "./information/pages/offerings";
 import WhoCanJoin from "./information/pages/whocanjoin";
 const App = () => {
   return (
-    <Router>
-      <div>
-        <MainNavigation />
-        <main>
-          <Intro />
-          <Offerings />
-          <WhoCanJoin />
-        </main>
-      </div>
-      {/* <Route path="/users">
-        <Users/>
-      </Route> */}
-    </Router>
+    <div>
+      <MainNavigation />
+      <main>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div>
+                <Intro /> <Offerings /> <WhoCanJoin />
+              </div>
+            }
+          />
+          <Route path="/users" element={<Users />} />
+        </Routes>
+      </main>
+    </div>
   );
 };
 export default App;
